@@ -34,10 +34,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1203, 728);
             this.Name = "FrmMain";
             this.Text = "Point and Click";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmMain_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmMain_KeyDown);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.FrmMain_MouseClick);
             this.ResumeLayout(false);
 
         }
