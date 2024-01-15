@@ -9,15 +9,15 @@ Das vorliegende WindowsForms-Projekt zeichnet mit GDI+ Rechtecke auf die GUI, we
 
 ## :clipboard:TODO
 ### Muss
-1)  Die Quadrate sollen mittig unter dem Mausklick entstehen.
-2)	Ein neues Quadrat darf nur dann gezeichnet werden, wenn die **Klickposition** nicht auf einem bereits erzeugtem Quadrat liegt. Tipp: `.Contains` (siehe Cheatsheet)
-3)	Die Größe neuer Quadrate soll bei jedem Klick zufällig festgelegt werden. Vorhandene Quadrate sollen ihre Größe behalten
-4)	Die Farbe neuer Quadrate soll bei jedem Klick zufällig ausgewählt werden.
+1)  Die Rechtecke sollen mittig unter dem Mausklick entstehen.
+2)	Ein neues Rechteck darf nur dann gezeichnet werden, wenn die **Klickposition** nicht auf einem bereits erzeugtem Rechteck liegt. Tipp: `.Contains` (siehe Cheatsheet)
+3)	Die Größe neuer Rechtecke soll bei jedem Klick zufällig festgelegt werden. Vorhandene Rechtecke sollen ihre Größe behalten
+4)	Die Farbe neuer Rechtecke soll bei jedem Klick zufällig ausgewählt werden.
 
 ### Kann
-1)  Durch Rechtsklick auf ein bereits vorhandenes Quadrat soll dieses entfernt werden.
-2)	Die Überschneidung zweier Quadrate soll farblich hervorgehoben werden.
+1)  Durch Rechtsklick auf ein bereits vorhandenes Rechteck soll dieses entfernt werden.
+2)	Die Überschneidung zweier Rechtecke soll farblich hervorgehoben werden.
 
 ### Für Schnelle
-1)	Durch Halten der Maustaste auf einem bereits vorhandenen Quadrat soll dessen Position verändert werden können.
-2)	Bei Klick auf ein Quadrat soll dieses 'ausgewählt' werden. Durch Drücken der Pfeiltasten soll die Position verändert werden können.
+1)	Durch Halten der Maustaste auf einem bereits vorhandenen Rechteck soll dessen Position verändert werden können.
+2)	Bei Klick auf ein Rechteck soll dieses 'ausgewählt' werden. Durch Drücken der Pfeiltasten soll die Position verändert werden können.
